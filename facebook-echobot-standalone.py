@@ -11,11 +11,11 @@ import sys
 import datetime
 
 # Connect to MySQL DB that holds subway information
-con = mdb.connect(host = '54.173.226.134',
-                  user = 'root',
-                  passwd = 'dwdstudent2015',
+con = mdb.connect(host = '---',
+                  user = '---',
+                  passwd = '---',
                   charset='utf8', use_unicode=True,
-                  database='mta2');
+                  database='---');
 
 application = Flask(__name__)
 app = application
