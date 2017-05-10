@@ -6,6 +6,7 @@ Involves:
 * Python Flask
 * Facebook Messenger API
 * Building MySQL Database
+* Visualization in Pandas
 
 
 Built off of Hung Tran's EchoBot
