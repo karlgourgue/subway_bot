@@ -19,8 +19,8 @@ con = mdb.connect(host = '---',
 
 application = Flask(__name__)
 app = application
-PAT = 'EAAa2XBIlumsBAJsTZAPFGAMe24UEW8nhHZBPr0siwtlbdsgybjS0zXZCYrYZCJCdK3hI2EzoH1jmr1kdiRU6pwOfSzOK2INkdEh9S2VZCMXmfXPKKvSoFZCuZA1ZCtNLaQPhBlRh3cfZAOtdSGp7xMa8dpdcWEnP0RUWDnjp5L9ImkQZDZD'
-VERIFICATION_TOKEN = 'verify_me'
+PAT = '---'
+VERIFICATION_TOKEN = '---'
 
 @app.route('/', methods=['GET'])
 def handle_verification():
